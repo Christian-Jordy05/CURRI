@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(247, 194, 194);
+    
+}
+
+.curriculum {
+    background-color: white;
+    width: 63%;
+    height: 1200px;
+    margin-left: 25%;
+    border-radius: 12px;
+}
+
+.bordeGris {
+    border: solid 3.5px gray;
+    position: absolute;
+    width: 60%;
+    height: 275px;
+    margin-left: 25%;
+    margin-top: 1.3%;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.space1 {
+    height: 300px;
+    text-align: end;
+}
+
+.space4 {
+    height: 600px;
+    
+}
+
+.space5 {
+height: 300px;
+
+}
+.TEX{
+    text-align: end;
+}
+.TITU{
+    text-align: end;
+
+}
+.img{
+    width: 20px;
+    margin-top: 22px;
+}
+.correo{
+    display: grid;
+    grid-template-columns: 25px 25px;
+    margin-left: 62%;
+    
+}
+.telefono{
+    display: grid;
+    grid-template-columns: 25px 25px;
+    margin-left: 60%;
+    height: 50px;
+    margin-top: -30px;
+    
+}
+.gps{
+    display: grid;
+    grid-template-columns: 25px 25px;
+    margin-left: 61%;
+    width: 150px;
+    height: 70px;
+  
+    
+}
+
+.im2{
+    width: 300px;
+    height: 250px;
+    border: solid 28px rgb(72, 72, 72);
+    margin-top: 1%;
+    margin-left: 5%;
+}
