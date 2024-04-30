@@ -32,7 +32,7 @@ h6{
 .mainContainer1{
     display: grid;
     grid-template-columns: 50% 50% ;
-    background-color: blue;
+   
 
    
    
@@ -41,28 +41,29 @@ h6{
 .mainContainer2{
     display: grid;
     grid-template-columns: 50% 50%;
+
    
    
 }
 
-.space1 {
+.espacio1 {
     height: 300px;
     text-align: end;
     background-color: red;
 }
 
 
-
-.space5 {
+/* 
+.espacio5 {
     height: 200px;
     background-color: aqua;
 
 }
-.space6 {
+.espacio6 {
     height: 200px;
     background-color: black;
 
-}
+} */
 
 
 .TEX {
@@ -188,7 +189,7 @@ h6{
 }
 
 /*espacio4*/
-.space4 {
+.espacio4{
     height: 500px;
     background-color: blue;
    
