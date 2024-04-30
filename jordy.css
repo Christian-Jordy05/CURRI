@@ -4,16 +4,18 @@ body {
 }
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 
 }
 h6{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
 
 }
 
 .curriculum {
     background-color: white;
-    width: 63%;
+    width: 67%;
     height: 1150px;
     margin-left: 25%;
     border-radius: 12px;
@@ -23,7 +25,7 @@ h6{
 .bordeGris {
     border: solid 3.5px rgb(193, 191, 191);
     position: absolute;
-    width: 60%;
+    width: 62%;
     height: 230px;
     margin-left: 300px;
     margin-top: 1.3%;
@@ -46,10 +48,11 @@ h6{
    
 }
 
+/* ESPACIO 1*/
 .espacio1 {
     height: 300px;
     text-align: end;
-    background-color: red;
+    
 }
 
 
@@ -112,8 +115,15 @@ h6{
 
 
 }
-.space2{
-    background-color: blue;
+
+
+
+
+
+
+/*ESPACIO 2*/
+.espacio2{
+    
     
 }
 
@@ -126,16 +136,27 @@ h6{
 }
 
 
+
+
+
+
+
+
+
+
 /* espacio 3*/
-.space3 {
+.espacio3 {
     background-color: rgb(196, 196, 196);
     height: 550px;
+    width: 94%;
+    margin-left: 10px;
 }
 
 .TEX1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 26PX;
+    font-size: 23PX;
     margin-left: 20px;
+    
 }
 
 .raya1 {
@@ -159,6 +180,8 @@ h6{
     margin-left: -27px;
 
 }
+
+
 
 /*estruc 2*/
 .raya2 {
@@ -188,10 +211,37 @@ h6{
     border-radius: 40px 40px;
 }
 
+
+
+
+
+
+
+
 /*espacio4*/
 .espacio4{
     height: 500px;
-    background-color: blue;
-   
+}
+.TEX2{
+    font-size: 22px;
+    margin-left: 30px;
+}
 
+.ajusTEX3{
+    display: grid;
+    grid-template-rows: 25px 14px 54px;
+    grid-template-columns: 10x;
+    margin-left: 30px;
+    margin-top: -17px;
+    
+}
+.rayaEspa4{
+    height: 3px;
+    width: 355px;
+    background-color: rgb(121, 120, 120);
+    margin-left: 30px;
+    border-radius: 40px 40px;
+}
+.parra{
+    font-size: 13px;
 }
