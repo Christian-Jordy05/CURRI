@@ -12,6 +12,11 @@ h6{
     color: grey;
 
 }
+.fechas{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+}
 
 .curriculum {
     background-color: white;
@@ -266,7 +271,7 @@ h6{
     display: grid;
     grid-template-rows: repeat(4,23px);
     height: 205px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 48px;
     
 }
@@ -278,9 +283,37 @@ h6{
 .puntos{
     display: grid;
     grid-template-rows: repeat(4,25px);
-    margin-top: -34px;
-    margin-left: -190px;
+    margin-left: 150px;
+    margin-top: -179px;
+
 }
 .TamañoPunto{
 font-size: 130px;
+}
+
+/*ESPACIO 6-------------------------------------------*/
+.espacio6{
+    height: 120px;
+    width: 370px;
+    margin-top: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgb(196, 196, 196);
+}
+.imgEspa6{
+    height: 5px;
+    width: 5px;
+}
+.ajustarLugar{
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+    grid-template-rows: repeat(4,50px);
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.TexEspacio6{
+    font-size: 16px;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
