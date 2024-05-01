@@ -4,8 +4,9 @@ body {
 }
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-
+}
+h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h6{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +22,7 @@ h6{
 .curriculum {
     background-color: white;
     width: 67%;
-    height: 1000px;
+    height: 980px;
     margin-left: 25%;
     border-radius: 12px;
     
@@ -52,6 +53,12 @@ h6{
     height: 300px;
     text-align: end;
     
+}
+.linkTexPrimerEspacio{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+
 }
 
 
@@ -284,11 +291,11 @@ h6{
     display: grid;
     grid-template-rows: repeat(4,25px);
     margin-left: 150px;
-    margin-top: -179px;
+    margin-top: -152px;
 
 }
 .TamañoPunto{
-font-size: 130px;
+font-size: 100px;
 }
 
 /*ESPACIO 6-------------------------------------------*/
