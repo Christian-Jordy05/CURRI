@@ -1,7 +1,19 @@
-body {
+#body {
     background-color: rgb(225, 225, 200);
 
 }
+
+#buton{
+    background-color: black;
+}
+#buton2{
+    background-color: rgb(4, 255, 0);
+    border: 1px solid white;
+    
+}
+
+
+
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -13,13 +25,37 @@ h6{
     color: grey;
 
 }
+#div2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 14px;
+    width: 10px;
+}
+#div3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 14px;
+    width: 10px;
+}
 .fechas{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 
 }
+.fechas2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-top: -5px;
 
-.curriculum {
+}
+.fechas3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-top: 3px;
+
+}
+
+#curriculum {
     background-color: white;
     width: 67%;
     height: 980px;
@@ -122,7 +158,7 @@ h6{
     
 }
 
-.im2 {
+#im2 {
     width: 300px;
     height: 210px;
     border: solid 24px rgb(72, 72, 72);
@@ -174,10 +210,21 @@ h6{
     margin-top: -100px;
 
 }
+.juste3{
+    display: grid;
+    grid-template-rows: 15px 10px;
+    
+}
 
 .justex {
     margin-left: -27px;
 
+}
+#div2{
+    margin-top: -20px;
+}
+#div3{
+    margin-top: -20px;
 }
 
 
